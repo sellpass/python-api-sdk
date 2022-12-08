@@ -2,7 +2,7 @@
 <img src="https://sellpass.io/img/logo.svg" width=350><img/>
 
 ## Information
-- Python SDK for the **[Official Sellapp Api](https://docs.sellpass.io)**
+- Python SDK for the **[Official Sellpass Api](https://docs.sellpass.io)**
 - For all functions **[check this out](https://github.com/sellpass/python-api-sdk/blob/main/sellpass/__init__.py)**
 
 ## Requirements
