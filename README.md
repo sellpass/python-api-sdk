@@ -10,7 +10,7 @@
 
 ## Installation (Windows)
 - Open Command Prompt
-- Run the following commands:
+- Run the following command:
 ```
 python3 -m pip install sellpass
 ```
