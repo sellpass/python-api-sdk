@@ -3,7 +3,7 @@ from sellpass import SellPass
 api_key = "API Key from https://dashboard.sellpass.io/settings/security" # Replace with your API key
 
 if __name__ == "__main__":
-    sp = SellPass(api_key = api_key, debug = True, shop_id= None) # <--- Replace shop_id with your shop ID, if you have multiple shops
+    sp = SellPass(api_key = api_key, debug = True, shop_id = None) # <--- Replace shop_id with your shop ID, if you have multiple shops
 
     print(f"Shop name: {sp.get_public_shop()[0]['shop']['name']}") # Get shop name
 
