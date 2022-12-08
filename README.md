@@ -1,4 +1,4 @@
-# Sellapp Python SDK
+# Sellpass Python SDK
 <img src="https://sellpass.io/img/logo.svg" width=350><img/>
 
 ## Information
