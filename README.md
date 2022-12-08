@@ -1,4 +1,5 @@
 # Sellapp Python SDK
+<img src="https://sellpass.io/img/logo.svg" width=350><img/>
 
 ## Information
 - Python SDK for the **[Official Sellapp Api](https://docs.sellpass.io)**
@@ -10,16 +11,16 @@
 ## Installation (Windows)
 - Open Command Prompt
 - Run the following commands:
-
-_soon_
+```
+python3 -m pip install sellpass
+```
+- You are good to go!
 
 ## Example Usage
 ```python
 from sellpass import SellPass
 
 api_key = "API Key from https://dashboard.sellpass.io/settings/security" # Replace with your API key
-
-
 
 if __name__ == "__main__":
     sp = SellPass(
@@ -58,3 +59,6 @@ if __name__ == "__main__":
     #    'shopId': 4100
     # }
 ```
+## From Sellpass
+- **[Official Site](https://sellpass.io)**
+- **[Official Api Documentation](https://docs.sellpass.io)**
