@@ -1,5 +1,5 @@
 # Sellpass Python SDK
-<img src="https://sellpass.io/img/logo.svg" width=350><img/>
+<img src="https://sellpass.io/_next/static/media/preview.adf4220b.svg" width=500><img/>
 
 ## Information
 - Python SDK for the **[Official Sellpass Api](https://docs.sellpass.io)**
