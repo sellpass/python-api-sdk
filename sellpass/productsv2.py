@@ -32,8 +32,8 @@ def get_productv2(self, product_id: int):
     r = self.req("get", f"/self/{self.shop_id}/v2/products/{product_id}")
     return self.process_response(r)
 
-def edit_productv2(self, title: str, description: str, variants: list, path: str, seo: str, unlisted: bool = False, private: bool = False, on_hold: bool = False, short_description: str = None):
-    r = self.req("put", f"/self/{self.shop_id}/v2/products", data = {
+def edit_productv2(self, product_id: int, title: str, description: str, variants: list, path: str, seo: str, unlisted: bool = False, private: bool = False, on_hold: bool = False, short_description: str = None):
+    r = self.req("put", f"/self/{self.shop_id}/v2/products/{product_id}", data = {
         "title": title,
         "description": description,
         "variants": variants,
