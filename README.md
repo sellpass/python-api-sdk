@@ -12,7 +12,7 @@
 - Open Command Prompt
 - Run the following command:
 ```
-python3 -m pip install sellpass
+python3 -m pip install sellpass-sdk
 ```
 - You are good to go!
 
